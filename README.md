@@ -40,7 +40,7 @@ Clean up the interval when the component unmounts using clearInterval to prevent
 
 ## PROGRAM
 # Carousel.js
-'''
+```
 import React, { useState, useEffect } from 'react';
 import './Carousel.css';
 
@@ -79,9 +79,9 @@ const Carousel = () => {
 };
 
 export default Carousel;
-'''
-#Carousel.css
-'''css
+```
+# Carousel.css
+```css
 .carousel-container {
   position: relative;
   width: 80%;
@@ -122,9 +122,9 @@ export default Carousel;
 .controls button:hover {
   background-color: #0056b3;
 }
-'''
-#App.js
-'''
+```
+# App.js
+```js
 import React from 'react';
 import './App.css';
 import Carousel from './components/Carousel';
@@ -142,9 +142,9 @@ function App() {
 }
 
 export default App;
-'''
-#App.css
-'''
+```
+# App.css
+```css
 .App {
   text-align: center;
 }
@@ -183,9 +183,9 @@ export default App;
     transform: rotate(360deg);
   }
 }
-'''
+```
 # Footer.js
-'''
+```js
 import React from 'react';
 import './Footer.css';
 
@@ -199,9 +199,9 @@ const Footer = () => {
 };
 
 export default Footer;
-'''
-#Footer.css
-'''
+```
+# Footer.css
+```css
 .footer {
     background-color: #222;
     color: #fff;
@@ -213,9 +213,12 @@ export default Footer;
     margin-top: 40px;
     font-size: 14px;
   }
-'''
+```
 
 ## OUTPUT
+![WhatsApp Image 2025-05-19 at 16 09 05_a5b45357](https://github.com/user-attachments/assets/9af7b2ce-0e70-4377-a9c1-bccda0b8e49b)
+![WhatsApp Image 2025-05-19 at 16 09 05_42742c3c](https://github.com/user-attachments/assets/ecfccb6f-d65f-49ef-993c-7279ed1ab3b2)
+![WhatsApp Image 2025-05-19 at 16 09 05_1b821aef](https://github.com/user-attachments/assets/050407aa-c07b-4cb2-9600-6a009ab08256)
 
 
 ## RESULT
